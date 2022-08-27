@@ -1,0 +1,22 @@
+.btn {
+    display: block;
+    padding: 5px 10px;
+    border: 1px solid #000;
+    border-radius: 20px;
+    font-size: 16px;
+    background: transparent;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-family: 'Jost', sans-serif;
+}
+.btn:hover {
+    background: #000;
+    color: #fff;
+    border-radius: 4px;
+    transition: all .3s ease-out;
+}
+.qodef-svg--button-arrow {
+    position: relative;
+    top: 2px;
+    fill: currentColor;
+}
